@@ -1,0 +1,3 @@
+Este projeto automatiza a verificação dos principais endpoints da Star Wars API (SWAPI), garantindo que informações sobre planetas, naves e filmes sejam retornadas corretamente. Com testes automatizados, cada endpoint é validado quanto à precisão dos dados e tratamento de erros, especialmente ao acessar rotas inválidas, onde a resposta esperada é um erro 404.
+
+Os testes estão configurados para execução automática no GitHub Actions, permitindo que cada atualização no repositório dispare uma verificação completa. Usando Jest e Axios, o projeto assegura a integridade dos dados da API de forma prática e eficiente, facilitando a detecção de problemas e promovendo uma base sólida para futuras integrações.
